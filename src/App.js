@@ -28,10 +28,6 @@ import {
 export default function RouterComponent() {
   return (
     <BrowserRouter>
-      {/* <Link to="/"></Link> &nbsp; &nbsp; &nbsp;
-      <Link to="/login">LogIn</Link> &nbsp; &nbsp; &nbsp;
-      <Link to="/admin">Admin Login</Link>&nbsp;&nbsp;&nbsp;
-      <Link to="/student">Student Login</Link>&nbsp;&nbsp;&nbsp; */}
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/login" element={<LogIn />}></Route>
