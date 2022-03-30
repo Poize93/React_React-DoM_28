@@ -150,22 +150,20 @@ function App() {
   );
 }
 
-function Action(x) {
-  const navigate = useNavigate();
-  console.log(x);
-  return (
-    <>
-      <Button variant="contained" onClick={() => navigate('/')} color="inherit">
-        {' '}
-        HomePage{' '}
-      </Button>
-      <BrowserRouter>
-        <Link to="/login"></Link>
-      </BrowserRouter>
-      <h3>{x}</h3>
-    </>
-  );
-}
+// function Action(x) {
+//   const navigate = useNavigate();
+//   console.log(x);
+//   return (
+//     <>
+//       <Button variant="contained" onClick={() => navigate('/')} color="inherit">
+//         {' '}
+//         HomePage{' '}
+//       </Button>
+//       <BrowserRouter>{/* <Link to="/login"></Link> */}</BrowserRouter>
+//       <h3>{x}</h3>
+//     </>
+//   );
+// }
 
 function LogIn() {
   const navigate = useNavigate();
